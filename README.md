@@ -17,3 +17,5 @@ configure colors for everything :
 To install the theme, run the script :
 
     ./set_colors.py ~/.ghidra/.ghidra-9.0/tools/_code_browser.tcd
+
+If you encounter any issues when trying to start ghidra that says "you need tools->association", you need to open "Tools" tab, and go to the bottom and look for "Set Tool Association", there right click the "CodeBrowser" on the right side, and click "edit" and select "CodeBrowserDarkNight".
